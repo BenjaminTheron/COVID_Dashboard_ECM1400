@@ -1,0 +1,28 @@
+
+{
+    "covid_data_handler" : {
+            "location": "Exeter",
+            "location_type": "ltla",
+            "commas": "yes"
+    },
+    "covid_news_handling": {
+            "queries": "Covid COVID-19 coronavirus",
+            "language": "en",
+            "sort_by": "publishedAt",
+            "displayed_content": "description",
+            "num_displayed_articles": "4",
+            "no_articles_message": "No news articles left.",
+            "news_api_key": ""
+    },
+    "main_program" : {
+            "image": "exeter.png",
+            "title": "Covid Updates",
+            "location": "Exeter",
+            "base_update_interval": "864",
+            "flask_routes" : {
+                    "base_flask_route": "/",
+                    "reroute_flask_route": "/index"
+            }
+    },
+    "encoding" : "utf8"
+}

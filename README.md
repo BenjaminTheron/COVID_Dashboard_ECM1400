@@ -70,7 +70,7 @@ If you're looking to change the program, start by looking at each respective fun
 module before moving to main.py, which links them all together/ to the displayed dashboard.
 
 ### Notes
-Some of the test functions at the bottom of some of the modules are 'empyt' no functionality out as I ran out of time to
+Some of the test functions at the bottom of some of the modules are 'empty' no functionality out as I ran out of time to
 implement them. This is an area I can come back to afterwards to polish off the project.
 
 Additionally there are a number of ways to extend the project:
